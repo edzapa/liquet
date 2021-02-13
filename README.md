@@ -9,10 +9,8 @@ When run, this will create a node where you can connect the blockchain and proce
 
 miner.py has 2 processes running in parallel:
 
-1. The first process takes care of mining, updating new blockchains and finding the proof of work.
 1. Does the mining and therefore updates new blockchains and finds proof-of-work
 
-2. The second process runs the flask server where peer nodes and users can connect to ask for the entire blockchain or sumbmit new transactions.
 2. This runs the flask server where peer nodes and users connect to either ask for an entire blockchain or it can submit new transactions
 
 
