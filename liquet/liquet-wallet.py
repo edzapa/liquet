@@ -10,7 +10,7 @@ def wallet():
         response = input("""What do you want to do?
         1. Generate new liquet wallet
         2. Send coins to another liquet wallet
-        3. Check liquet transactions\n""")
+        3. Check liquet transactions\n""")LIQUET COIN v1.0.0 - BLOCKCHAIN SYSTEM\n
     if response == "1":
         # Generate new wallet
         print("""=========================================\n
@@ -88,7 +88,7 @@ def sign_ECDSA_msg(private_key):
 
 if __name__ == '__main__':
     print("""       =========================================\n
-        LIQUET COIN v1.0.0 - BLOCKCHAIN SYSTEM\n
+        LIQUET COIN v1.0.0 \n
        =========================================\n\n
         """)
     wallet()
