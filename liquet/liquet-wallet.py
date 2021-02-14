@@ -88,7 +88,7 @@ def sign_ECDSA_msg(private_key):
 
 if __name__ == '__main__':
     print("""       =========================================\n
-        liquet v1.0.0 - BLOCKCHAIN SYSTEM\n
+        LIQUET COIN v1.0.0 - BLOCKCHAIN SYSTEM\n
        =========================================\n\n
         """)
     wallet()
