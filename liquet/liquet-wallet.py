@@ -13,7 +13,7 @@ def wallet():
         3. Check liquet transactions\n""")LIQUET COIN v1.0.0 - BLOCKCHAIN SYSTEM\n
     if response == "1":
         # Generate new wallet
-        print("""=========================================\n
+        print("""=========================================\nLIQUET COIN v1.0.0 - BLOCKCHAIN SYSTEM\n
 IMPORTANT: take note of credentials or all will be lost\n
 =========================================\n""")
         generate_ECDSA_keys()
@@ -88,7 +88,7 @@ def sign_ECDSA_msg(private_key):
 
 if __name__ == '__main__':
     print("""       =========================================\n
-        LIQUET COIN v1.0.0 \n
+        LIQUET \n
        =========================================\n\n
         """)
     wallet()
