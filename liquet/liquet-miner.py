@@ -67,7 +67,6 @@ def mine(a, blockchain, node_pending_transactions):
                 "from": "network",
                 "to": MINER_ADDRESS,
                 "amount": 1})
-            # Now we can gather the data needed to create the new block
             new_block_data = {
                 "proof-of-work": proof[0],
                 "transactions": list(NODE_PENDING_TRANSACTIONS)
@@ -75,7 +74,7 @@ def mine(a, blockchain, node_pending_transactions):
             new_block_index = last_block.index + 1
             new_block_timestamp = time.time()
             last_block_hash = last_block.hash
-            # Empty transaction list
+            
             NODE_PENDING_TRANSACTIONS = []
             mined_block = LiquetBlock(new_block_index, new_block_timestamp, new_block_data, last_block_hash)
             BLOCKCHAIN.append(mined_block)
