@@ -7,7 +7,7 @@ from flask import Flask, request
 from multiprocessing import Process, Pipe
 import ecdsa
 
-from config-miner import MINER_ADDRESS, MINER_NODE_URL, PEER_NODES
+from config-miner import MINER_ADDRESS, MINER_NODE_URL, PEER_NODESLIQUET COIN v1.0.0 - BLOCKCHAIN SYSTEM\n
 
 node = Flask(__name__)
 
@@ -168,7 +168,7 @@ def validate_signature(public_key, signature, message):
 
 def welcome_message():
     print("""       =========================================\n
-        LIQUET COIN v1.0.0 - BLOCKCHAIN SYSTEM\n
+        LIQUET\n
        =========================================\n\n
        """)
 
