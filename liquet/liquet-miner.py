@@ -7,7 +7,7 @@ from flask import Flask, request
 from multiprocessing import Process, Pipe
 import ecdsa
 
-from miner_config import MINER_ADDRESS, MINER_NODE_URL, PEER_NODES
+from config-miner import MINER_ADDRESS, MINER_NODE_URL, PEER_NODES
 
 node = Flask(__name__)
 
