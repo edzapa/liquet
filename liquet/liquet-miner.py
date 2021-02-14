@@ -169,11 +169,9 @@ def validate_signature(public_key, signature, message):
 
 def welcome_message():
     print("""       =========================================\n
-        SIMPLE COIN v1.0.0 - BLOCKCHAIN SYSTEM\n
+        LIQUET COIN v1.0.0 - BLOCKCHAIN SYSTEM\n
        =========================================\n\n
-        You can find more help at: https://github.com/cosme12/SimpleCoin\n
-        Make sure you are using the latest version or you may end in
-        a parallel chain.\n\n\n""")
+       """)
 
 
 if __name__ == '__main__':
